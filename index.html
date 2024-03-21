@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/decoder_img01.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a id="title-page" href="index.html"><img id="img-title" src="assets/decoder_img02.png" alt="decoder">Desafio - Decodificador de Texto</a>
+    </nav>
+    <main>
+        <section class="input-area">
+            <textarea placeholder="Digite aqui um texto para codificar ou decodificar..."></textarea>
+            <div class="input-area__decoder-buttons">
+                <button onclick="getInputText('encrypt')">Codificar</button>
+                <button onclick="getInputText('decrypt')">Decodificar</button>
+            </div>
+        </section>
+        <section class="output-area">
+            <div id="output-area__result-area">
+                <h1>RESULTADO:</h1>
+                <p id="output-area__result-area__result-text">O resultado da sua decodificação/encodificação aparecerá aqui...
+                <img id="output-area__result-area__result-area-img" src="assets/decode_icon.png"></p>
+            </div>
+            <button id="output-area__copy-button" onclick="copyToTransferArea()"><img id="output-area__copy-button__copy-icon" src="assets/copy_icon.png" alt="">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h1 id="text-footer">Desenvolvido por <a href="" target="_blank" title="Acesse meu perfil do github">@Pedro Henrique</a>.</h1>
+        </section>
+    </footer>
+</body>
+</html>
