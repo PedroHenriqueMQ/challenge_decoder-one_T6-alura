@@ -42,7 +42,7 @@ function decrypt (keyWords, input) {
     }
 
     if (!encoded) {
-        alert('Esse texto ainda não foi codificado!');
+        alert('Uma análise foi feita, não é possível que esse texto tenha sido codificado aqui ainda!');
         return;
     }
 
