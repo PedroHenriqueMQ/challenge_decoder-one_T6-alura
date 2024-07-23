@@ -1,1 +1,2 @@
-# challenge_decoder-one_T6-alura
+# Decodificador de texto
+Site para realizar codificação e decodificação simples de texto.
