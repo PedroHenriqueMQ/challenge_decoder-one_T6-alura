@@ -16,3 +16,6 @@ As regras de decodificação são o inverso das regras de codificação. Além d
 - HTML e CSS
 - JavaScript
 - DOM manipulation
+
+## Como Acessar
+Você pode acessar e utilizar o (Desafio - Decodificador de Texto)[https://pedrohenriquemq.github.io/challenge_decoder-one_T6-alura/] clicando no link aqui disposto.
